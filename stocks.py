@@ -45,3 +45,11 @@ def stock_purchases():
     # Use an f-string to print the result for the client, ala:
     # Alex has $5000 to invest and can buy 50 shares of Apple at the current price of $100.
     print(f"{client_name} has ${dollars} to invest and can buy {stock_amount} shares of {stock_name} at the current price of ${stock}.")
+    ## Below is a dictionary with the stock names and prices :
+    stock_dict = {
+        'amazon': '3000'
+        'apple': '100'
+        'fb': 250
+        'google': 1400
+        'msft': 200
+    }
